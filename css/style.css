@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(to right, #A1FFCE, #FAFFD1);
+}
+
+div p{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+label{
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.pQuestions
+{
+    color: #78c878;
+}
+
+#answerAndDialog
+{
+    display: none;
+}
+
+#container{
+    height: 420px;
+    margin: 20px auto;
+    width: 600px;
+}
+
+#scorecard{
+    display: none;
+}
+
+#answerButtons{
+    margin: 20px auto 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+/*------------dialog box----------------------*/
+
+#dialog{
+    text-align: center;
+}
+
+div .ui-widget-header{
+    background: #4CAF50;
+    color: white;
+}
+
+div .ui-dialog{
+    border-radius: 7px;
+}
+
+/*--------------buttons styles-------------------*/
+
+.buttonStyle{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.trueFalseButtons{
+    height: 40px;
+    width: 80px;
+}
+
+#howSureButton{
+    margin-top: 25px;
+    padding: 7px;
+}
+
+#startButton{
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    width: 80px;
+}
+
+#refreshButton{
+    padding: 7px;
+}
+
+/*--------------scorecard table styles--------------*/
+
+.table{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table th, .table td{
+    text-align: center;
+    padding: 4px;
+}
+
+.table tr:nth-child(2n+1)
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(2n+0)
+{
+    color: #4CAF50;
+}
+
+.table tr:nth-child(2) td:nth-last-child(-n+4)
+{
+    font-weight: bold;
+}
